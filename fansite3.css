@@ -1,0 +1,177 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+	background-image:url(images/wonderwoman.jpg);
+	margin: 0;
+    padding: 0;
+    color: #948b10;
+}
+
+/* Entête */
+header {
+    background-color: #800202;
+	color: #1d0475;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+	margin: 0;
+    font-size: 2.5em;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #9ca708;
+	text-align: center;
+	
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #044127;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #9eaf05;
+}
+
+/* Section principale */
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #095c35;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(2, 87, 61, 0.815);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #a39b9b;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Liste des événements, réalisations et liens */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Section Photos et Vidéos */
+img:hover {
+  transform: scale(1.1);
+}
+élément {
+  height: 25%;
+}
+.media img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+video:hover {
+  transform: scale(1.1);
+}
+élément {
+  height: 25%;
+}
+.media video {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Formulaire de contact */
+form {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Responsivité pour les petits écrans */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    .media img, .media video {
+        max-width: 100%;
+    }
+}
