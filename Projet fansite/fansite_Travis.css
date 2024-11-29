@@ -1,0 +1,165 @@
+html {
+    background:  white;
+    color: black;
+    font-family: "Open sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    padding: 0px 0;
+}
+
+/* Navigation */
+.ouai {
+    background: #18324d;
+    border-bottom: 8px solid #FFD700;
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+/*footer*/
+.ouai2{
+    background: #18324d;
+    border-top: 8px solid #FFD700;
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.ouai a {
+    text-decoration: none;
+    color: #FFD700;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.ouai a:hover {
+    color: #FF4500;
+    transform: scale(1.1);
+}
+
+/* Images */
+.fit-picture {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    border: 5px solid #FFD700;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+.fit-picture:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 20px 40px rgba(255, 69, 0, 0.8);
+}
+.fit-pictures {
+    display: block;
+    width: 15%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+/* Paragraphs */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: black;
+    padding: 0 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Links */
+a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+a:hover {
+    color: #FF4500;
+    transform: scale(1.1);
+}
+
+/* Video */
+video {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Les polices et tout*/
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 30px 0 20px;
+    color: #FFD700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FF4500;
+    display: inline-block;
+    padding-bottom: 5px;
+    animation: slideIn 1s ease-out;
+}
+h1 {
+    color: black;
+    font-size: 5rem;
+    text-align: center;
+}
+h3 {
+    color: black;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.Levraitravis{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+   
+}
+/* Logo Cactus Jack*/
+#Yeah {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+
+    /* Animation de rotation */
+    animation: spinInfinite 25s linear infinite;
+}
+@keyframes spinInfinite {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
