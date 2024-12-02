@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');    
+
+
+
+
+.DARK {
+    
+    body
+    {background-color: #ffde59;}
+    
+
+    .HEADER 
+    {background-color: #ffde59;
+    border: #fff3e7;
+    a 
+    {color: #18324d;}
+    input 
+    {background-color: #18324d;
+    color: #ffde59;
+    border: #fff3e7;}
+    }
+
+    .TITRE {
+
+        h1
+        {color: #fff3e7;}
+        h2
+        {color: #fff3e7;}
+        p
+        {color: #fff3e7;}
+
+    }
+
+    .ARTICLES {
+
+        article
+        {background-color: #ffde59;
+        color: #18324d;
+        border: #fff3e7;}
+
+    }
+
+    .FOOTER
+    {background-color: #ffde59;
+    border: #fff3e7;
+    color: #fff3e7;
+    a 
+    {color: #18324d;}
+    p
+    {color: #18324d;}
+    }
+}
+
+.LIGHT {
+
+    background-color: aquamarine;
+
+} 
+
+
+
+
+
+
+
+* {box-sizing:border-box;}
+
+/*RESOLUTION TELEPHONE*/
+@media only screen and (max-width:672px) {
+
+    body 
+    {background-color:#fff3e7;
+    font-family:'Open Sans';}
+    
+    .HEADER 
+    {background-color:#18324d;
+    text-align:center;
+    padding-top:10px;
+    border-bottom: 9px solid #ffde59;
+    
+    a 
+    {font-size: 32px;
+    margin:9px;
+    text-align:center;
+    text-decoration:none;
+    color:white;}
+    
+    input
+    {margin-top:15px;
+    margin-bottom:15px;
+    border-radius:15px;
+    text-align:center;
+    border:5px solid #ffde59;}
+    }
+   
+    main 
+    {background-color: #fff3e7;}
+
+   .TITRE
+   {text-align:center;
+   
+   h1 
+   {font-size:48px;
+   font-family: 'Montserrat';
+   margin-bottom:-12px;
+   margin-top:5px;}
+   p 
+   {font-size:14px;
+   color:black;}
+   
+   h2
+   {font-size:22px;
+   font-family:'League Spartan'}
+   }
+   
+
+   .ARTICLES {
+        display: grid;
+        text-align: center;
+        
+        article
+        {background-color: black;
+        border-radius: 20px;
+        color: white;
+        font-size: 32px;
+        margin: 20px;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        }
+
+   }
+
+   .FOOTER
+   {background-color:#18324d;
+   padding-top:10px;
+   padding-bottom:5000px;
+   border-top: 9px solid #ffde59;
+   
+   a 
+    {font-size: 28px;
+    margin:9px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+    text-decoration:none;
+    color:white;}
+
+   p
+   {color:white;
+   font-size:14px;
+   padding-left:10px;
+   padding-right:10px;}
+}
+}
+
+/*RESOLUTION TABLETTE*/
+@media only screen and (max-width:939px) {
+
+body 
+{background-color:#fff3e7;
+font-family:'Open Sans';}
+
+.HEADER 
+{background-color:#18324d;
+text-align:center;
+padding-top:10px;
+border-bottom: 9px solid #ffde59;
+
+a 
+{font-size: 32px;
+margin:9px;
+text-align:center;
+text-decoration:none;
+color:white;}
+
+input
+{margin-top:15px;
+margin-bottom:15px;
+border-radius:15px;
+text-align:center;
+border:5px solid #ffde59;}
+}
+
+main 
+{background-color: #fff3e7;}
+
+
+.TITRE
+{text-align:center;
+
+h1 
+{font-size:48px;
+font-family: 'Montserrat';
+margin-bottom:-12px;
+margin-top:5px;}
+p 
+{font-size:14px;
+color:black;}
+
+h2
+{font-size:22px;
+font-family:'League Spartan'}
+}
+
+
+.ARTICLES {
+    display: grid;
+    text-align: center;
+    article
+    
+    {background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 32px;
+    margin: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+
+}
+
+.FOOTER
+{background-color:#18324d;
+padding-top:10px;
+padding-bottom:5px;
+border-top: 9px solid #ffde59;
+
+a 
+{font-size: 28px;
+margin:9px;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+text-align:center;
+text-decoration:none;
+color:white;}
+
+p
+{color:white;
+font-size:14px;
+padding-left:10px;
+padding-right:10px;}
+}
+}
+
+
+/*RESOLUTION ORDINATEUR*/
+@media only screen and (min-width:941px) {
+
+body 
+{background-color:#18324d;
+font-family:'Open Sans';}
+
+.HEADER 
+{background-color:#18324d;
+display: grid;
+text-align:left;
+padding:30px;
+border-bottom: 9px solid #ffde59;
+
+a 
+{display: flex;
+justify-content: space-around;
+font-size: 32px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-bottom: 5px;
+margin-left: 35px;
+margin-right:20px;
+float: left;
+text-align:center;
+text-decoration:none;
+color:white;}
+
+button
+{margin-left: 50px;
+margin-top: 8px;
+border: 1px solid #18324d;
+background-color: #18324d;}
+
+input
+{float: right;
+padding-left: 45px;
+padding-right: 45px;
+padding-top: 9px;
+padding-bottom: 9px;
+margin-top:10px;
+margin-bottom:10px;
+margin-right: 20px; 
+border-radius:19px;
+text-align:left;
+border:5px solid #ffde59;}
+}
+
+.CONTENT {
+
+    background-color: #fff3e7;
+    margin: -1px;
+    text-align: center;
+
+}
+
+.TITRE
+{text-align:center;
+
+h1 
+{font-size:58px;
+font-family: 'Montserrat';
+margin-bottom:-12px;
+margin-top:35px;}
+p 
+{font-size:14px;
+color:black;}
+
+h2
+{font-size:32px;
+margin-top: 35px;
+font-family:'League Spartan'}
+}
+
+
+.ARTICLES 
+    {display: flex;
+    justify-content: space-around;    
+    text-align: left;
+
+    article
+    {
+    font-family: 'League Spartan';
+    background-color: #18324d;
+    color: white; 
+    border: 5px solid #ffde59;
+    border-radius: 20px;
+    
+    font-size: 32px;
+    
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    img {
+
+        border-radius: 15px;
+
+    }
+
+    a {
+
+        text-decoration: none;
+        color: skyblue;
+        font-size: 25px
+
+    }
+}
+
+
+.FOOTER
+{display: grid;
+background-color:#18324d;
+padding: 40px;
+border-top: 9px solid #ffde59;
+
+a 
+{font-size: 28px;
+float: left;
+margin-right:7px;
+padding-top:10px;
+padding-left:10px;
+padding-right:5px;
+text-align:center;
+text-decoration:none;
+color:white;}
+
+p
+{color:white;
+text-align: right;
+padding-left: 15px;
+padding-right: 15px;
+font-size:16px;
+/*
+padding-left:10px;
+padding-right:10px;}
+*/ 
+}
+}
+}
